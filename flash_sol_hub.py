@@ -1,3 +1,7 @@
+from pyvirtualdisplay import Display
+display = Display(visible=0, size=(1024, 768))
+display.start()
+
 import tkinter as tk
 import web3
 from web3 import Web3
